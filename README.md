@@ -1,4 +1,4 @@
-🎓 Sistem Informasi Akademik (SIAKampus)
+Sistem Informasi Akademik (SIAKampus)
 
 1. Deskripsi Project
 
