@@ -2,7 +2,7 @@
 
 1. Deskripsi Project
 
-Sistem Informasi Akademik Kampus (SIAKampus) adalah aplikasi web yang memungkinkan pengguna untuk mengelola data akademik mahasiswa dan informasi kampus. Website ini menampilkan dashboard, pengelolaan data mahasiswa, dan profile pengguna dengan antarmuka yang user-friendly.
+Sistem Informasi Akademik Kampus (SIAKampus) adalah aplikasi web untuk mengelola data akademik mahasiswa dan informasi kampus. Website ini menampilkan dashboard, pengelolaan data mahasiswa, dan profile pengguna dengan antarmuka yang user-friendly.
 
 2. Fitur Utama
 
