@@ -27,7 +27,7 @@
 
     <div style="flex: 1;"></div>
 
-    <div class="mt-auto">  <!-- mt-auto BUAT POSISI KE BAWAH -->
+    <div class="mt-auto">
         <div class="card bg-light border-0">
             <div class="card-body text-center p-3">
                 <small class="text-muted d-block">

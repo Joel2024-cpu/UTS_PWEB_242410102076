@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
-    // --- HALAMAN UTAMA ---
+    // HALAMAN UTAMA
     public function home()
     {
         return view('home');
@@ -17,11 +17,11 @@ class PageController extends Controller
         return view('login');
     }
 
-    // --- PROSES LOGIN (BARU) - SESUAI REQUIREMENTS ---
+    // PROSES LOGIN
     public function authenticate(Request $request)
     {
-        // Validasi input
-        $request->validate([ // PERBAIKI SYNTAX
+
+        $request->validate([
             'username' => 'required',
             'password' => 'required',
         ], [
@@ -31,14 +31,12 @@ class PageController extends Controller
 
         $username = strtolower(trim($request->input('username')));
 
-        // REDIRECT DENGAN QUERY PARAMETER (SESUAI REQUIREMENTS UTS)
         return redirect()->route('dashboard', ['username' => $username]);
     }
 
     // --- DASHBOARD ---
     public function dashboard(Request $request)
     {
-        // AMBIL USERNAME DARI QUERY PARAMETER (SESUAI REQUIREMENTS)
         $username = $request->query('username');
 
         if (!$username) {
@@ -51,7 +49,6 @@ class PageController extends Controller
     // --- PROFILE ---
     public function profile(Request $request)
     {
-        // AMBIL USERNAME DARI QUERY PARAMETER (SESUAI REQUIREMENTS)
         $username = $request->query('username');
 
         if (!$username) {
@@ -79,7 +76,6 @@ class PageController extends Controller
             ],
         ];
 
-        // Jika username ditemukan, ambil datanya
         $data = $mahasiswa[$username] ?? [
             'nama' => ucfirst($username) ?: 'User',
             'nim' => '-',
@@ -93,7 +89,6 @@ class PageController extends Controller
     // --- PENGELOLAAN ---
     public function pengelolaan(Request $request)
     {
-        // AMBIL USERNAME DARI QUERY PARAMETER (SESUAI REQUIREMENTS)
         $username = $request->query('username');
 
         if (!$username) {

@@ -1,11 +1,9 @@
-{{-- di dashboard.blade.php --}}
 @extends('layouts.app')
 
 @section('title', 'Dashboard Mahasiswa')
 
 @section('content')
 <div class="container-fluid">
-    <!-- Header Welcome -->
     <div class="row mb-4">
         <div class="col-12">
             <div class="card card-hover border-0">
@@ -17,7 +15,7 @@
         </div>
     </div>
 
-    <!-- Quick Actions -->
+    {{-- Tombol --}}
     <div class="row mb-4">
         <div class="col-md-6">
             <div class="d-grid gap-2 d-md-flex">
@@ -34,7 +32,6 @@
     </div>
 
     <!-- Statistics Cards -->
-<!-- Statistics Cards - PAKAI VERSION SIMPLE -->
 <div class="row g-4 mb-4">
     <div class="col-md-3">
         <div class="card border-0 shadow-sm text-white" style="background: linear-gradient(135deg, #1e40af, #3b82f6);">
@@ -93,7 +90,7 @@
     </div>
 </div>
 
-    <!-- Recent Activity & Login History -->
+    <!-- Aktivitas Terbaru-->
     <div class="row g-4">
         <div class="col-md-6">
             <div class="card card-hover border-0">

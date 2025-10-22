@@ -4,7 +4,6 @@
 
 @section('content')
 <div class="container-fluid">
-    <!-- Header Profile -->
     <div class="row mb-4">
         <div class="col-12">
             <div class="card border-0 shadow-sm">
@@ -31,7 +30,6 @@
     </div>
 
     <div class="row g-4">
-        <!-- Informasi Pribadi -->
         <div class="col-md-6">
             <div class="card border-0 shadow-sm">
                 <div class="card-header bg-success text-white">
@@ -74,7 +72,6 @@
             </div>
         </div>
 
-        <!-- Statistik Akademik -->
         <div class="col-md-6">
             <div class="card border-0 shadow-sm">
                 <div class="card-header bg-info text-white">
@@ -115,7 +112,6 @@
             </div>
         </div>
 
-        <!-- Aktivitas Terbaru -->
         <div class="col-12">
             <div class="card border-0 shadow-sm">
                 <div class="card-header bg-warning text-dark">
@@ -144,7 +140,7 @@
                         </div>
                         <div class="list-group-item d-flex align-items-center">
                             <div class="bg-info rounded-circle p-2 me-3">
-                                
+
                             </div>
                             <div class="flex-grow-1">
                                 <strong>Memperbarui Profil</strong>

@@ -12,7 +12,6 @@
             --secondary: #3b82f6;
         }
 
-        /* BACKGROUND UNTUK AUTH PAGES */
         .auth-page {
             background: linear-gradient(rgba(30, 58, 138, 0.8), rgba(59, 130, 246, 0.8)),
                         url('https://th.bing.com/th/id/OIP.0x6oWW0-yfM8oIuDM41xGgHaDm?w=330&h=170&c=7&r=0&o=7&cb=12&dpr=1.3&pid=1.7&rm=3');
@@ -22,7 +21,6 @@
             min-height: 100vh;
         }
 
-        /* BACKGROUND UNTUK DASHBOARD PAGES */
         .dashboard-page {
             background: linear-gradient(135deg, #1e3a8a, #3b82f6);
             min-height: 100vh;
@@ -94,10 +92,9 @@
     @endif
 
     @if(in_array(Route::currentRouteName(), ['home', 'login']))
-        <!-- AUTH PAGES (tanpa navbar & sidebar) -->
         @yield('content')
     @else
-        <!-- DASHBOARD PAGES (dengan navbar & sidebar) -->
+
         <div class="main-wrapper">
             <x-sidebar />
             <main class="content-area">

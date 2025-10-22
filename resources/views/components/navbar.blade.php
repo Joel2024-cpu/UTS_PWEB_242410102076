@@ -1,19 +1,16 @@
 <nav class="navbar navbar-expand-lg shadow-sm"
      style="background: linear-gradient(90deg, var(--primary), var(--secondary));">
   <div class="container-fluid px-4">
-    {{-- Brand / Logo --}}
     <a class="navbar-brand fw-bold text-white" href="{{ route('dashboard') }}">
         Sistem Akademik Kampus
     </a>
 
-    {{-- Toggle untuk mode mobile --}}
     <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
             aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    {{-- Menu Navigasi --}}
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto align-items-center">
         <li class="nav-item">

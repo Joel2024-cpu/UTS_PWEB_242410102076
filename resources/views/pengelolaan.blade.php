@@ -40,7 +40,7 @@
         </table>
     </div>
 
-    <!-- Statistik kecil -->
+    <!-- Statistik Mahasiswa-->
     <div class="mt-5">
         <h5 class="fw-bold mb-3">Statistik Mahasiswa</h5>
         <div class="row text-center">
@@ -70,7 +70,7 @@
             </div>
         </div>
     </div>
-{{-- Tombol kembali ke dashboard --}}
+
 <div class="text-center mt-4">
     <a href="{{ route('dashboard', ['username' => $username]) }}" class="btn btn-outline-primary px-4">
         ← Kembali ke Dashboard
