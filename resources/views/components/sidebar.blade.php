@@ -1,4 +1,3 @@
-{{-- di sidebar.blade.php --}}
 <div class="sidebar">
     <div class="text-center mb-4">
         <img src="https://logos.ruangkosong.net/wp-content/uploads/2020/06/Lambang-Universitas-Jember-UNEJ-Ruang-Logo.png"

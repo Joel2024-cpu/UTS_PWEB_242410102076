@@ -60,9 +60,9 @@
             padding: 25px 20px;
             display: flex;
             flex-direction: column;
-            min-height: 100vh;  /* TAMBAH INI */
-            height: 100vh;      /* TAMBAH INI */
-            position: sticky;   /* TAMBAH INI */
+            min-height: 100vh;  
+            height: 100vh;      
+            position: sticky;   
             top: 0;
 
         }
