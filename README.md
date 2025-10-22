@@ -12,7 +12,7 @@ Sistem Informasi Akademik Kampus (SIAKampus) adalah aplikasi web untuk mengelola
 - Profile: Menampilkan informasi pengguna dan data akademik
 - Responsive Design: Tampilan optimal di desktop dan mobile
 
-3. Teknologi yang Digunakan
+3. Komponen yang Digunakan
 
 - Framework: Laravel 11
 - Frontend: Bootstrap 5 + Custom CSS
